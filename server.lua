@@ -1,5 +1,6 @@
 local IPlist = {
         {"asteriaroleplay", "217.195.207.17"},     --Eray Korkmaz
+        {"safakroleplaylisans", "45.147.45.81"}, --- Taha Yenipinar
 }
 objelist = {}
 objelist["4027"] = "Sunucu Özel Galeri"
@@ -36,6 +37,7 @@ objelist["5168"] = "Taco Modellemesi"
 
 keylist = {}
 keylist["asteriaroleplay"] = "Asteria Roleplay (2/2)"
+keylist["safakroleplaylisans"] = "Safak Roleplay"
 
 
 
