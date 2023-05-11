@@ -63,17 +63,17 @@ function Magic(res)
         if data1 == keygetir() then 
             if oneat then return end
             setElementData(root, "setElementData", 1)
-            print ("Lisans ONAYLANDI! www.caypmodel.com")
+            print ("Lisans ONAYLANDI!")
             sendMessage("objelog", "➥ **OBJE LİSANSI: ** V5 PROTECT ♛ \n➥ **OBJE ADI**: " ..objelist[objectt()] .."\n➥ **SUNUCU IP:** "..ip.."  \n➥ **SUNUCU ADI:** " ..keylist[keygetir()] .. "\n➥ **OBJE LİSANSI:** Onaylandı! \n➥ **Orjinal model kullandığınız için teşekkür ederiz!**\n--------------------------------------------------------------------")
             oneat = true
         else 
             setTimer(function()
     --shutdown("Güle Güle")
 end,2000*5,1)
-            print("Lisans ONAYLANMADI! Cayp Model ile iletisime geciniz.")
+            print("Lisans ONAYLANMADI!")
             print("Lisans tespit edilemedi.10 saniye icinde sunucu kapatiliyor...")
             print("Lisans Var ise restart atiniz.")
-            print("www.caypmodel.com")
+
             setElementData(root, "setElementData", nil)
             sendMessage("objelog", "➥ **OBJE LİSANSI: ** V5 PROTECT ♛ \n➥ **OBJE ADI**: " ..objelist[objectt()] .."\n➥ **SUNUCU IP:** "..ip.."  \n➥ **SUNUCU ADI:** " ..keylist[keygetir()] .. "\n➥ **OBJE LİSANSI:** Onaylanmadı!:warning: \n➥ **Çalıntı model tespit edild! 10 saniye içinde sunucu kapatılıyor... ** \n--------------------------------------------------------------------")        end
     else 
@@ -86,9 +86,9 @@ addEventHandler ("baslalan", getResourceRootElement(), Magic )
 
 Webhooks = {
     ["objelog"] = {
-        link = "https://discord.com/api/webhooks/903556860643270666/5NVFCYG2080b70FoqOP-CM-eRfOw4nDgh87mbYqmOdtezj1JUqYPYYK66Kv5L2soruIQ",
+        link = "https://discord.com/api/webhooks/1106187834907443282/IyAyrDBoGM_9rSy0R574m57v1V-WNIalkfsK5vMvhTSQUetszXENRSXoBrmsR2jvMBsL",
         avatar = "https://cdn.discordapp.com/attachments/844871878127517726/906811768930717697/gif.gif", -- if u want to empty, enter nil
-        username = "Cayp Licanse V5"
+        username = "Licanse V5"
     }
 }
 
